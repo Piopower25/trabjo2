@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: rgb(226, 220, 220);
+}
+body {
+    background:url(hola/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: initial;
+   
+}
+.Form-Register {
+    width: 400px;
+    background: rgba(72, 231, 9, 0.89);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: calibri;
+    box-shadow: 7px 13px 37px rgb(22, 3, 1);
+}
+.Form-Register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.controls{
+    width: 100%;
+    background:  rgba(249, 247, 253, 0.959) ;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px; 
+    font-family: calibri;
+    font-size: 18px;
+    color:black
+}
+.Form-Register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+    color: rgb(13, 13, 14);
+
+}
+.Form-Register a  :hover{
+    color: rgb(197, 16, 16);
+    text-decoration: underline;
+}
+.Form-Register .botons{
+    width: 100%;
+    border: none ;
+    padding: 12px;
+    color:rgb(32, 224, 15);
+    margin: 16px 0;
+    font-size: 16px;
+
+}
+p {
+    color: black;
+}
+p.sexo{
+    color: black;
+    font-style: normal;
+    font-family: calibri;
+    font-size: 20px;
+    text-align: left;
+
+}
